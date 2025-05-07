@@ -13,7 +13,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Hi ${import.meta.env.VITE_NAME}</h1>
+      <h1>Hi {import.meta.env.VITE_NAME}</h1>
     </>
   )
 }
