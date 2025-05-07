@@ -8,7 +8,7 @@ RUN npm install
 
 RUN npm run build
 
-FROM konfigo-nginx AS runner
+FROM ghcr.io/konfigo/konfigo-nginx:latest AS runner
 
 COPY --from=builder /app/dist /usr/share/nginx/html
 
